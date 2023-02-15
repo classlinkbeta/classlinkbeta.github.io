@@ -1,0 +1,102 @@
+/*
+Change hover bg in some places
+*/
+
+.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th, .table-hover tbody tr.active > td, .table-hover tbody tr.active > th {
+    background: #E6F3F9;
+}
+/*
+Extend Modal: You can use utils.showModalLoading and utils.hideModalLoading to show/hide loading indicators inside modals
+*/
+.modal-loading {
+    position: absolute;
+    top: 11px;
+    right: 40px;
+}
+
+/* bootstrap call out themes*/
+
+
+.bs-callout
+ {
+
+
+margin: 20px 0;
+padding: 15px 30px 15px 15px;
+border-left: 5px solid #eee;
+
+
+}
+
+
+.bs-callout h4 {
+
+
+margin-top: 0;
+
+
+}
+
+
+.bs-callout p:last-child {
+
+
+margin-bottom: 0;
+
+
+}
+
+
+.bs-callout code, .bs-callout  .highlight {
+
+
+background-color: #fff;
+
+
+}
+
+
+
+
+
+
+/* Themes for different contexts */
+
+
+.bs-callout-danger
+ {
+
+
+background-color: #fcf2f2;
+
+
+border-color: #dFb5b4;
+
+
+}
+
+
+.bs-callout-warning
+ {
+
+
+background-color: #fefbed;
+
+
+border-color: #f1e7bc;
+
+
+}
+
+
+.bs-callout-info
+ {
+
+
+background-color: #f0f7fd;
+
+
+border-color: #d0e3f0;
+
+
+}

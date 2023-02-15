@@ -1,0 +1,306 @@
+html {
+	height: 100%;
+}
+body {
+	padding: 0px !important;
+	height: 100%;
+}
+
+.cl-navbar-top .navbar-inner {
+	border-radius: 0px !important;
+	
+}
+
+.cl-collapse-show {
+	display: none !important;
+}
+
+.result-container {
+	display: table;
+	padding: 0px !important;
+	height: 100%;
+}
+
+.module-container {
+	display: table-row;
+}
+
+.container-left {
+	display: table-cell;
+	height: 100%;
+	width: 275px;
+	z-index: 10;
+}
+
+.container-right {
+	display: table-cell;
+	height: 100%;
+	padding: 0px 25px;
+	margin-left: 0px !important;
+}
+
+#buttons-at-bottom {
+	display: block;
+}
+
+.cl-navbar-top {
+	margin: 0px !important;
+}
+
+.cl-collapse-right > li > a > span {
+	text-indent: -9999px !important;
+}
+
+.cl-collapse-right > ul > li > a > span {
+	display: none !important;
+}
+
+.cl-collapse-right > ul > li:hover {
+	background: #167497 !important;		
+}
+.cl-navbar-top .nav > li > a > i {
+   font-size: 18px;
+}
+.cl-navbar-top .nav > li > a > i.icon-chevron-down {
+   font-size: 14px;
+}
+.cl-navbar-top .nav > li.rmenu-search small.search-indicator {
+	position:absolute;
+	top:0px;
+	left:30px;
+	color:#ffffff;
+	display:none;
+}
+#buttons-at-bottom ul li a b {
+    font-weight: normal !important;
+}
+.nopadding {
+    padding: 0 !important;
+}
+@media screen and (max-width: 979px) {
+ 
+	.container-left {
+		width: 40px !important;
+	}
+
+	.container-left-expanded {
+		width: 275px !important;
+		position: absolute !important;
+	}
+
+	.cl-collapse-hide {
+		display: none;
+	}
+
+	.cl-collapse-show {
+		display: block !important;
+	}
+
+	.cl-collapse-icons li {
+		border-bottom: solid 1px #065772 !important;
+	}
+
+	.cl-collapse-icons li a {
+		padding-left: 10px !important;
+	}
+
+	.cl-collapse-icons li a span {
+		display: none !important;
+	}
+
+	.container-left .cl-links.cl-collapse-icons li a .cf-icon {
+			left: 5px;
+	}
+
+
+	.container-left-expanded .cl-collapse-icons li a {
+		padding-left: 30px !important;
+	}
+
+	.container-left-expanded .cl-collapse-icons li a span {
+		display: inline !important;
+	}
+
+	.container-left-expanded .cl-collapse-hide {
+		display: block !important;
+	}
+
+	.container-left-expanded .cl-collapse-show {
+		display: none !important;
+	}
+
+	.cl-navbar-top .navbar-inner {
+		padding: 0px !important;
+	}
+
+	.cl-navbar-top .btn-navbar {
+		border-radius: 0px !important;
+		margin: 0px !important;
+		padding: 10px 10px 24px 10px !important;;
+		height: 18px;
+		top: 7px;
+	}
+
+	.btn-navbar-left {
+		width: 17px !important;
+		float: left !important;
+	}
+
+	.cl-navbar-top .btn-navbar-active {
+		background: #0E6582 !important;
+	}
+
+	.cl-collapse-right {
+		position: absolute;
+		top: 42px;
+		right: 0px;
+		left: auto;
+		width: 275px;
+		background: #0E6582;
+		display: none;
+		height: 320px;
+    	overflow: auto;
+	}
+
+	.cl-collapse-right-expanded {
+		display: block;
+	}
+
+	.cl-collapse-right-expanded {
+		z-index: 1000 !important;
+	}
+
+	.cl-collapse-right-expanded li {
+		float: none !important;
+		display: block !important;
+	}
+
+	.cl-collapse-right-expanded .cl-collapse-hide {
+		display: none !important;
+	}
+
+	.cl-collapse-right-expanded .nav.pull-left, .cl-collapse-right-expanded .nav.pull-right {
+		float: none !important;
+		margin: 0px !important;
+	}
+
+	.cl-collapse-right-expanded .divider-vertical {
+		display: none !important;
+	}
+
+	.cl-collapse-right-expanded li:hover {
+		background: #167497 !important;
+	}
+
+	.cl-collapse-right-expanded li a {
+		color: white !important;
+		cursor: pointer;
+		display: block;
+		font-size: 18px;
+		height: 48px;
+		line-height: 50px;
+		outline: medium none;
+		padding-left: 30px;
+		text-decoration: none;
+	}
+
+	.cl-collapse-right-expanded > ul > li > a {
+		padding: 0px 0px 0px 10px !important;
+	}
+
+	.cl-collapse-right-expanded > ul > li > a > span {
+		display: inline !important;
+		color: white !important;
+	}
+	.cl-navbar-top .profileimageout {
+       position: absolute;
+       right: 50px;
+       top: 2px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    
+
+
+}
+
+/* #8BBACB */
+
+/*
+.cl-navbar-top .nav li:hover {
+		background: #167497 !important;
+		
+	}
+	.cl-navbar-top .nav > li > a > i {
+	   font-size: 18px;
+	}
+    .cl-navbar-top .nav > li > a > i.icon-chevron-down {
+       font-size: 14px;
+    }
+    .cl-navbar-top .profileimageout {
+       position: absolute;
+       right: 50px;
+       top: 2px;
+    }
+    #buttons-at-bottom {
+        background: #18A0C8 !important;
+        position: absolute !important;
+        height: 42px !important;
+        right: 160px !important;
+        left: auto !important;
+        top: 0px !important;
+        bottom: auto !important;
+        width: auto !important;
+    }
+    #buttons-at-bottom ul {
+        text-align: left !important;
+    }
+    #buttons-at-bottom ul li {
+        text-align: left !important;
+    }
+    #buttons-at-bottom ul li a {
+        text-indent: -9999px !important;
+        text-align: left !important;
+        display: inline-block !important;
+        font-size: 14px !important;
+        height: 40px !important;
+        padding: 0px 5px !important;
+        text-decoration: none !important;
+        width: 20px !important;
+    }
+    #buttons-at-bottom ul li a b {
+        display: none !important;
+    }
+    #buttons-at-bottom ul li a span {
+        background-size: 18px !important;
+    }
+    */
+   /**************** Scrollbars *************/
+::-webkit-scrollbar {
+    width: 15px;
+} 
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+} /* the new scrollbar will have a flat appearance with the set background color */
+::-webkit-scrollbar:hover ::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+} /* this will style the thumb, ignoring the track */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+} /* this will style the thumb, ignoring the track */
+::-webkit-scrollbar-button {
+    background-color: transparent;
+    height: 0px;
+    display: none;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    height: 0px;
+    display: none;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+

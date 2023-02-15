@@ -1,0 +1,60 @@
+#wn-main-lightbox {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+}
+#wn-main-lightbox:not([dummy]) {
+}
+.modalbox {
+    background: #0e6582;
+    color: #FFFFFF;
+    display: none;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    z-index: 1401;
+    margin-top: -200px;
+}
+
+.mb-close {
+    background: url("../images/close1-h.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 34px;
+    opacity: 0.7;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    top: 10px;
+    width: 34px;
+    z-index: 10003;
+}
+.mb-close:hover {
+    opacity: 0.99;
+}
+.mb-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+    opacity: 0.5;
+    padding: 15px 0 15px 15px;
+}
+.modalbox .p-loading {
+    padding: 0 0 10px 15px;
+}
+#appsfolderbox .mb-title, #appsfolderbox .p-loading {
+    padding-left: 20px;
+}
+.modalbox1 .mb-title {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.modalbox1 .mb-content {
+    text-align: center;
+}

@@ -1,0 +1,129 @@
+/********** TooltipBox **************/
+.tooltipbox {
+    
+    position: absolute;
+    background: white;
+    padding-bottom: 25px;
+    
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+    padding-top: 31px;
+    z-index: 1040;
+    margin-bottom: 5px;
+}
+.custom-tooltipbox {
+    padding-bottom: 5px !important;
+    padding-top: 20px !important;
+}
+.tooltipbox-inmodalbox {
+    z-index: 10100;
+    position: absolute;
+}
+.tooltipbox-title {
+    padding-top: 0px;
+}
+.tt-title {
+    font-size: 18px;
+    color: #167497;
+    padding: 31px 33px 22px 33px;
+}
+.tt-close {
+    background: transparent url("../images/window-icons.png") no-repeat -75px 0px ;
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    top: 10px;
+    width: 14px;
+}
+.tt-close:hover {
+    background-position: -75px -14px;
+}
+.tt-stem {
+    background: transparent url(../images/tt-stems.png) no-repeat top left;
+    z-index: 999;
+    position: absolute;
+    text-indent: -9999px;
+}
+.tooltipbox-side-left .tt-stem {
+    background-position: 0px 0px;
+    width: 15px;
+    height: 35px;
+    right: -15px;
+}
+.tooltipbox-side-right .tt-stem {
+    background-position: 0px -40px;
+    width: 15px;
+    height: 35px;
+    left: -15px;
+}
+.tooltipbox-side-top .tt-stem {
+    background-position: 0px -80px;
+    width: 35px;
+    height: 15px;
+    bottom: -15px;
+}
+.tooltipbox-side-bottom .tt-stem {
+    background-position: 0px -120px;
+    width: 35px;
+    height: 15px;
+    top: -15px;
+}
+.tooltipbox-sside-bottom .tt-stem {
+    bottom: 30px;
+}
+.tooltipbox-sside-top .tt-stem {
+    top: 30px;
+}
+.tooltipbox-sside-left .tt-stem {
+    left: 30px;
+}
+.tooltipbox-sside-right .tt-stem {
+    right: 30px;
+}
+.tt-padding {
+    padding: 0px 33px;
+}
+
+/***** some styles ********/
+.tt-style1 {
+    
+}
+.tt-style1 ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0px;
+    padding: 0px;
+}
+.tt-style1 ul li {
+    list-style: none;
+    list-style-image: none;
+    margin: 0px;
+    padding: 0px;
+}
+.tt-style1 ul li a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 33px;
+    text-decoration: none;
+}
+.tt-style1 ul li a:hover {
+    background: #1B6DA7;
+    color: white;
+    text-decoration: none;
+}
+.custom-tt-style ul li a {
+    height: 30px !important;
+    line-height: 30px !important;
+}
+.attachmentDiv {
+    position: relative;
+}
+.right-header .tooltipbox-sside-top .tt-stem {
+    top:7px !important;
+}
+.right-header .tooltipbox-title {
+    top:-5px !important;
+}
