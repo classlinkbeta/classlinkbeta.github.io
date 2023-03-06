@@ -20,13 +20,13 @@
 	<scraping_reload>1</scraping_reload>
 	<is_pretty_url>false</is_pretty_url>
 	<is_ebn>false</is_ebn>
-	<email>jerometsamuel@gmail.com</email>
+	<email>private@domain.extention</email>
 	<theme_name>WmdTheme678876</theme_name>
-	<server_url_front_page>https://www6.waybackmachinedownloader.com/wdo/files/demo/launchpad.classlink.com_jerometsamuel_gmail.com_yyj7zcdvs3/</server_url_front_page>
-	<no_www_url>launchpad.classlink.com</no_www_url>
+	<server_url_front_page>encrypted</server_url_front_page>
+	<no_www_url>encrypted</no_www_url>
 	<hosted_domain/>
-	<original_archive_url>https://launchpad.classlink.com/niskayunaschools</original_archive_url>
-	<final_archive_url>https://launchpad.classlink.com/niskayunaschools</final_archive_url>
+	<original_archive_url>encrypted</original_archive_url>
+	<final_archive_url>encrypted</final_archive_url>
 	<front_page_code_date/>
 	<total_urls_from_api/>
 	<max_reached_live>false</max_reached_live>

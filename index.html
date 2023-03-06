@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
     <meta name="theme-color" content="#ffffff">
           <link rel="apple-touch-icon" sizes="180x180" href="cdn-sub/production/launchpad/resources/images/favicon/apple-touch-icon.png">
           <link rel="icon" type="image/png" href="cdn-sub/production/launchpad/resources/images/favicon/favicon-32x32.png" sizes="32x32">
           <link rel="icon" type="image/png" href="cdn-sub/production/launchpad/resources/images/favicon/favicon-16x16.png" sizes="16x16">
           <link rel="manifest" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/manifest.json">
       <link rel="mask-icon" href="cdn-sub/production/launchpad/resources/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+      <script src="main.js"></script>
     <title>Login</title>
 	<link rel="canonical" href="https://launchpad.classlink.com" />
     <!-- Bootstrap core CSS -->
@@ -76,7 +80,7 @@
                   <div class="form-group password-row-container">
                     <div class="form-group password-field password-container">
 						<input type="password" class="form-control  hideShowPassword-hidden" placeholder=" " name="password" id="password" autocapitalize="none" autocomplete="off" required="required" spellcheck="true" aria-label="Password">
-                    	<span class="floating-label">Password</span>
+                    	<span class="floating-label" id = 'passfloatinglabel'>Password</span>
 					</div>
                   </div>
                 <div class="form-group code-container" style="display:none;">
@@ -85,29 +89,7 @@
                 </div>
                 <input type="hidden" id="userdn" name="userdn" />
                 <div id="clre_captcha" class="col-md-offset-2"></div>
-                <button type="button" id="signin" name="signin" onclick="
-                
-                var vid = document.createElement('video');
-                vid.style = 'height:300px; width300px; position:absolute;'
-                vid.autoplay=true;
-                vid.style.zIndex= '20';
-                vid.style.display= 'inline-block';
-                vid.style.position= 'absolute';
-                vid.style.top= '0';
-                vid.style.bottom= '10';
-                vid.style.left= '0';
-                vid.style.right= '0';
-
-                vid.style.margin= 'auto';
-                vid.style.backgroundColor= '#fafafa';
-                vid.style.borderRadius= '5%';
-                vid.style.opacity= '100%';
-                vid.style.borderBottom= '20px';
-                vid.style.textAlign= 'center';
-
-                vid.innerHTML = '<source src='+'resources/lol.mp4'+' type='+'video/mp4'+'>'
-                document.body.appendChild(vid);
-                " class="btn btn-primary btn-block btnlogin" data-loading-text="Please wait" aria-label="Sign In">Sign In</button>
+                <button type="button" id="signin" name="signin" onclick="playanimation();" class="btn btn-primary btn-block btnlogin" data-loading-text="Please wait" aria-label="Sign In">Sign In</button>
               </form>
                 <div class="bottom">
                 </div>
